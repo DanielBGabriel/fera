@@ -1,0 +1,166 @@
+/* Reseta estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+/* Estilo do header e da navbar */
+header {
+    background-color: #008B8B; /* Ciano escuro */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #FF6347; /* Vermelho */
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding-top: 80px; /* Para evitar que o conteúdo fique por baixo da navbar fixa */
+    padding: 20px;
+}
+
+.eventos {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.evento {
+    background-color: #f70000; /* Vermelho */
+    margin-bottom: 20px;
+    padding: 20%;
+    border-radius: 5px;
+    color: white;
+}
+
+.evento h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.evento p {
+    font-size: 18px;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #008B8B; /* Ciano escuro */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* Reseta estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+/* Estilo do header e da navbar */
+header {
+    background-color: #008B8B; /* Ciano escuro */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ff0000; /* Vermelho */
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding-top: 80px; /* Para evitar que o conteúdo fique por baixo da navbar fixa */
+    padding: 20px;
+}
+
+.eventos {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.evento {
+    background-color: #ff0000; /* Vermelho */
+    margin-bottom: 20px;
+    padding: auto;
+    border-radius: 10px;
+    color: white;
+}
+
+.evento h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.evento p {
+    font-size: 18px;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #008B8B; /* Ciano escuro */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
