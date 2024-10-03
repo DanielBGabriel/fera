@@ -10,6 +10,9 @@ body {
     font-family: Arial, sans-serif;
     background-color: white;
     color: #333;
+    background-image: url(./Conteudos/bckgrd.png);
+    background: no-repeat;
+    background-attachment: fixed;
 }
 
 /* Estilo do header e da navbar */
@@ -39,7 +42,7 @@ header {
 }
 
 .navbar a:hover {
-    color: #FF6347; /* Vermelho */
+    color: #ff2600; /* Vermelho */
 }
 
 /* Estilo do conteúdo principal */
@@ -49,100 +52,41 @@ main {
 }
 
 .eventos {
-    max-width: 800px;
+    max-width: 1800px;
     margin: 0 auto;
     text-align: center;
 }
 
+.evento-container {
+    display: flex;
+    align-items: flex-start; /* Alinha as partes do container no topo */
+    margin-bottom: 20px; /* Espaço entre os eventos */
+    background-color: rgb(211, 176, 133);
+    border: solid 40px wheat;
+}
+
+.desc {
+    width: 45%; /* Ajuste a largura conforme necessário */
+    text-align: left; /* Alinha o texto à esquerda */
+    padding: 2%;
+}
+.desc h1{
+    font-size: xx-large;
+    color: black;
+    margin: 8px;
+}
+
 .evento {
-    background-color: #f70000; /* Vermelho */
-    margin-bottom: 20px;
-    padding: 20%;
-    border-radius: 5px;
-    color: white;
-}
-
-.evento h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.evento p {
-    font-size: 18px;
-}
-
-/* Estilo do rodapé */
-footer {
-    background-color: #008B8B; /* Ciano escuro */
-    color: white;
-    text-align: center;
+    background-color: #921e01; /* Vermelho */
+    margin-left: 20px; /* Espaço entre a descrição e o evento */
     padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-/* Reseta estilos padrão */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Estilo do corpo */
-body {
-    font-family: Arial, sans-serif;
-    background-color: white;
-    color: #333;
-}
-
-/* Estilo do header e da navbar */
-header {
-    background-color: #008B8B; /* Ciano escuro */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 1rem;
-}
-
-.navbar ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-.navbar li {
-    margin: 0 15px;
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.navbar a:hover {
-    color: #ff0000; /* Vermelho */
-}
-
-/* Estilo do conteúdo principal */
-main {
-    padding-top: 80px; /* Para evitar que o conteúdo fique por baixo da navbar fixa */
-    padding: 20px;
-}
-
-.eventos {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.evento {
-    background-color: #ff0000; /* Vermelho */
-    margin-bottom: 20px;
-    padding: auto;
     border-radius: 10px;
+    border: solid 15px #f70000;
+    border-style: inset;
     color: white;
+    width: 45%; /* Ajuste a largura conforme necessário */
+    text-align: left; /* Alinha o texto à esquerda */
+    padding-right: 35px;
 }
 
 .evento h2 {
@@ -163,4 +107,10 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+img {
+    width: 100%;
+    margin: 10px;
+    border: solid 5px #008B8B;
 }
