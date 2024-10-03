@@ -1,3 +1,9 @@
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 /* Reseta estilos padrão */
 * {
     margin: 0;
@@ -7,7 +13,7 @@
 
 /* Estilo do corpo */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: white;
     color: #333;
     background-image: url(./Conteudos/bckgrd.png);
@@ -23,8 +29,9 @@ header {
     left: 0;
     width: 100%;
     padding: 1rem;
+    font-family: satisfy;
+    text-shadow: 0 0 3px #2600ff, 0 0 5px #8000ca;
 }
-
 .navbar ul {
     list-style: none;
     display: flex;
@@ -61,14 +68,19 @@ main {
     display: flex;
     align-items: flex-start; /* Alinha as partes do container no topo */
     margin-bottom: 20px; /* Espaço entre os eventos */
-    background-color: rgb(211, 176, 133);
-    border: solid 40px wheat;
+    background-color: wheat;
+    border: solid 40px #bb9246;
+    border-style:ridge;
+    padding-top:20px ;
+    padding-bottom:20px ;
 }
 
 .desc {
     width: 45%; /* Ajuste a largura conforme necessário */
     text-align: left; /* Alinha o texto à esquerda */
     padding: 2%;
+    background-color: #ebcc92;
+    margin: 5px;
 }
 .desc h1{
     font-size: xx-large;
@@ -113,4 +125,13 @@ img {
     width: 100%;
     margin: 10px;
     border: solid 5px #008B8B;
+}
+a:hover{
+    color: #007474;
+
+}
+a{
+    transition: 10s;
+    color: #008B8B;
+    text-decoration: none;
 }
