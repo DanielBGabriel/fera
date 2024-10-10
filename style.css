@@ -23,8 +23,8 @@ body {
 
 /* Estilo do header e da navbar */
 header {
-    background-color: #008B8B; /* Ciano escuro */
-    position: fixed;
+    background-color: rgb(0, 138, 138); /* Ciano escuro */
+
     top: 0;
     left: 0;
     width: 100%;
@@ -42,15 +42,7 @@ header {
     margin: 0 15px;
 }
 
-.navbar a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
 
-.navbar a:hover {
-    color: #ff2600; /* Vermelho */
-}
 
 /* Estilo do conteúdo principal */
 main {
@@ -119,19 +111,42 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    
 }
 
 img {
     width: 100%;
     margin: 10px;
     border: solid 5px #008B8B;
+    
 }
 a:hover{
     color: #007474;
-
 }
 a{
+    color:#008B8B ;
     transition: 10s;
-    color: #008B8B;
     text-decoration: none;
+}
+
+
+.glr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.glr img {
+    max-width: 32%;
+    height: auto;
+    margin: 10px;
+    flex: 1 1 calc(33.33% - 20px); /* 3 imagens por linha, ajuste conforme necessário */
+}
+.ftr{
+    padding: 1%;
+    position: static;
+    margin-left:-52px;
+    width:105.53%;
+    
+
 }
